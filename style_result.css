@@ -46,3 +46,48 @@ html{
     padding-top: 10px;
     padding-right: 10px;
 }
+
+.foot_container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.insta_container{
+    display:flex;
+    margin-bottom: 10px;
+    margin-top:0px;
+    padding-top:0px;
+    padding-bottom: 10px;
+}
+.your_type_is{
+    padding-top:40px;
+}
+@media only screen and (max-width: 600px) {
+    .your_type_is {
+      font-size: 30px;
+      padding-top: 0px;
+    }
+    .short_text {
+        font-size: 18px;
+    }
+    .keyword_box {
+        font-size: 18px;
+    }
+    
+    .cereal_image {
+        height:270px;
+    }
+    .d-flex{
+        justify-content: center;
+        align-items: center;
+    }
+    .company_text{
+        text-align: center;
+    }
+    .insta_container{
+        display:flex;
+        justify-content: center;
+        margin: 10px;
+    }
+  }
