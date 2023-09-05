@@ -1,0 +1,67 @@
+body{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+  }
+  
+  .question_area{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .question_container{
+    align-self: center;
+  }
+
+  .boxes{
+    width:50vw;
+  }
+
+  .progress_container{
+    width:100%;
+    align-self: center;
+  }
+  
+  .question_text{
+    font-size:1.5rem;
+    font-weight:350;
+  }
+
+  .foot_container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.insta_container{
+    display:flex;
+    margin-bottom: 10px;
+    margin-top:0px;
+    padding-top:0px;
+    padding-bottom: 10px;
+}
+ 
+  @media (max-width: 575.98px){.question_text{font-size:20px;}}
+  .buttonbox{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap:wrap;
+  }
+  .insta_link {
+        text-decoration: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+     button{
+      width: 90vw;
+     }
+      .company_text{
+          text-align: center;
+      }
+      .insta_container{
+          display:flex;
+          justify-content: center;
+          margin: 10px;
+      }
+    }
