@@ -15,84 +15,86 @@ function showCurrentValue(){
 }
 
 function openResultPage(){
+
+    const mainpageUrl = "https://butter-cloud.github.io/cereal_test/"
     //ESFP
     if
     (value_E>0 && value_S>0 && value_F>0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_ESFP/","_self")}
+    {window.open(mainpageUrl+"ESFP","_self")}
     
     //ESFJ
     else if
     (value_E>0 && value_S>0 && value_F>0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_ESFJ/", "_self")}
+    {window.open(mainpageUrl+"ESFJ", "_self")}
 
     //ESTP
     else if
     (value_E>0 && value_S>0 && value_F<=0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_ESTP/", "_self")}
+    {window.open(mainpageUrl+"ESTP", "_self")}
     
     //ESTJ
     else if
     (value_E>0 && value_S>0 && value_F<=0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_ESTJ/", "_self")}
+    {window.open(mainpageUrl+"ESTJ", "_self")}
     
     //ENFP
     else if
     (value_E>0 && value_S<=0 && value_F>0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_ENFP/", "_self")}
+    {window.open(mainpageUrl+"ENFP", "_self")}
     
     //ENFJ
     else if
     (value_E>0 && value_S<=0 && value_F>0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_ENFJ/", "_self")}
+    {window.open(mainpageUrl+"ENFJ", "_self")}
 
     //ENTP
     else if
     (value_E>0 && value_S<=0 && value_F<=0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_ENTP/", "_self")}
+    {window.open(mainpageUrl+"ENTP", "_self")}
     
     //ENTJ
     else if
     (value_E>0 && value_S<=0 && value_F<=0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_ENTJ/", "_self")}
+    {window.open(mainpageUrl+"ENTJ", "_self")}
 
     //ISFP
     else if
     (value_E<=0 && value_S>0 && value_F>0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_ISFP/", "_self")}
+    {window.open(mainpageUrl+"ISFP", "_self")}
     
     //ISFJ
     else if
     (value_E<=0 && value_S>0 && value_F>0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_ISFJ/", "_self")}
+    {window.open(mainpageUrl+"ISFJ", "_self")}
 
     //ISTP
     else if
     (value_E<=0 && value_S>0 && value_F<=0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_ISTP/", "_self")}
+    {window.open(mainpageUrl+"ISTP", "_self")}
     
     //ISTJ
     else if
     (value_E<=0 && value_S>0 && value_F<=0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_ISTJ/", "_self")}
+    {window.open(mainpageUrl+"ISTJ", "_self")}
 
     //INFP
     else if
     (value_E<=0 && value_S<=0 && value_F>0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_INFP/", "_self")}
+    {window.open(mainpageUrl+"INFP", "_self")}
     
     //INFJ
     else if
     (value_E<=0 && value_S<=0 && value_F>0 && value_P<=0)
-    {window.open("https://butter-cloud.github.io/cereal_INFJ/", "_self")}
+    {window.open(mainpageUrl+"INFJ", "_self")}
     
     //INTP
     else if
     (value_E<=0 && value_S<=0 && value_F<=0 && value_P>0)
-    {window.open("https://butter-cloud.github.io/cereal_INTP/", "_self")}
+    {window.open(mainpageUrl+"INTP", "_self")}
     
     //INTJ
     else
-    {window.open("https://butter-cloud.github.io/cereal_INTJ/", "_self")}
+    {window.open(mainpageUrl+"INTJ", "_self")}
     //end of the 16 types 
 }
 
